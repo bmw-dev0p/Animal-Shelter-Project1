@@ -2,7 +2,9 @@ html {
   background-color: #B7B7A4;
 }
 
-
+.custom-cursor {
+  cursor: url('file:///Users/brookecline/Downloads/paw_print.svg'), auto;
+}
 
 
 .house {
@@ -28,9 +30,10 @@ html {
 
 .walls {
   width: 100%;
-  height: 550px;
+  height: 100%;
   background-color: #cc9966; 
   position: relative;
+  font-size: 35px;
 }
 
 
@@ -44,6 +47,29 @@ html {
   transform: translateX(-50%);
 }
 
+.door .hidetext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.door:hover .hidetext {
+  display: inline-block;
+  background-color: #F4F1DE;
+  color: black;
+  visibility: visible;
+}
+
+.hidetext {
+  display:none;
+ 
+}
   .container {
     display: flex;
     justify-content: space-between;
