@@ -26,38 +26,7 @@ html {
 }
 
 
-.walls1 {
-  width: 100%;
-  height: 550px;
-  background-color: #cc9966; 
-  position: relative;
-}
-.walls2 {
-  width: 100%;
-  height: 550px;
-  background-color: #cc9966; 
-  position: relative;
-  
-}
-.walls3 {
-  width: 100%;
-  height: 550px;
-  background-color: #cc9966; 
-  position: relative;
-}
-.walls4 {
-  width: 100%;
-  height: 550px;
-  background-color: #cc9966; 
-  position: relative;
-}
-.walls5 {
-  width: 100%;
-  height: 550px;
-  background-color: #cc9966; 
-  position: relative;
-}
-.walls6 {
+.walls {
   width: 100%;
   height: 550px;
   background-color: #cc9966; 
