@@ -1,38 +1,104 @@
-.sq {
-    border: 10px solid #642850;
-    height: 500px;
-    width: 500px;
-    position: relative;
-    margin-top: 100px;
-  }
-  /* .tl {
-    position: absolute;
-    top: -33px;
-    left: -36px;
-    border-left: 10px solid #642850;
-    border-top: 10px solid #642850;
-    height: 400px;
-    width: 400px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform-origin: 100% 100%;
-  } */
+html {
+  background-color: #B7B7A4;
+}
 
+.custom-cursor {
+  cursor: url('file:///Users/brookecline/Downloads/paw_print.svg'), auto;
+}
+
+
+.house {
+  width: 300px;
+  height: 300px;
+  background-color: transparent; 
+  position: relative;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0); 
+}
+
+
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 155px solid transparent;
+  border-right: 146px solid transparent;
+  border-bottom: 113px solid #8b4513;
+}
+
+
+.walls {
+  width: 100%;
+  height: 100%;
+  background-color: #cc9966; 
+  position: relative;
+  font-size: 35px;
+}
+
+
+.door {
+  width: 50px;
+  height: 80px;
+  background-color: #663300; 
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.door .hidetext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.door:hover .hidetext {
+  display: inline-block;
+  background-color: #F4F1DE;
+  color: black;
+  visibility: visible;
+}
+
+.hidetext {
+  display:none;
+ 
+}
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
-
+  .box {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 1%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: transparent;
+}
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    background-color: #F4F1DE;
   }
 
+  #nav-button {
+    display:flex;
+    justify-content: flex-end;
+  }
 
   h1 {
     padding-left: 50px;
@@ -43,8 +109,8 @@
   }
 
   footer {
-    margin-top:25px;
-    border-top: 5px solid #642850;
+    margin-top:100px;
+    border-top: 5px solid #283618;
     display: flex;
     justify-content: space-between;
     align-items: center;
