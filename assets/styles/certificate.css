@@ -13,16 +13,8 @@ header nav {
   font-family: 'Pinyon Script', cursive;
 }
 
-.sans {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .bold {
   font-weight: bold;
-}
-
-.block {
-  display: block;
 }
 
 .underline {
@@ -49,7 +41,7 @@ body {
   background: #ccc;
 }
 
-.pm-certificate-container {
+.container {
   position: relative;
   width: 800px;
   height: 600px;
@@ -82,7 +74,7 @@ body {
     border: 2px solid #fff;
   }
 
-  .pm-certificate-border {
+  .main-content {
     position: relative;
     width: 720px;
     height: 520px;
@@ -96,7 +88,7 @@ body {
     margin-top: -260px;
   }
 
-    .pm-certificate-block {
+    .row-block {
       width: 650px;
       height: 100px;
       position: relative;
@@ -106,11 +98,11 @@ body {
       margin-top: 0;
     }
 
-    .pm-certificate-header {
+    .top-banner {
       margin-bottom: 10px;
     }
 
-    .pm-certificate-title {
+    .title {
       position: relative;
       top: 20px;
       text-align: center;
@@ -120,19 +112,11 @@ body {
       }
     }
 
-    .pm-certificate-body {
+    .body {
       padding: 10px;
 
-      .pm-name-text {
+      .name-text {
         font-size: 20px;
-      }
-    }
-
-    .pm-certified {
-      font-size: 12px;
-
-      .underline {
-        margin-bottom: 5px;
       }
     }
 
