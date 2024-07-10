@@ -11,10 +11,6 @@ function submitData(event) {
 
     localStorage.setItem("AdopterName", fullName);
     localStorage.setItem("petName", petName.value);
-
-    
-
-    console.log(animalChoice);
 }
 
 
