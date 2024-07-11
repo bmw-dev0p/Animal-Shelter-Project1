@@ -117,5 +117,9 @@ html {
     padding: 20px;
   }
 
+  #logo {
+    max-width: 175px;
+  }
+
 
 
