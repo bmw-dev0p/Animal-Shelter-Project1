@@ -1,5 +1,5 @@
 html {
-  background-color: #B7B7A4;
+  background-color: rgb(246, 243, 243);
 }
 
 .custom-cursor {
@@ -92,7 +92,7 @@ html {
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    background-color: #F4F1DE;
+    background-color: white;
   }
 
   #nav-button {
@@ -116,3 +116,4 @@ html {
     align-items: center;
     padding: 20px;
   }
+
