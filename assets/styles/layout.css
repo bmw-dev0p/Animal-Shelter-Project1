@@ -1,0 +1,81 @@
+html {
+    background-color: rgb(246, 243, 243);
+  }
+
+
+
+
+/* .container-milo {
+    background-image: url(../images/aussiedoodle.jpg);
+    display: flex;
+    /* width: 100%; */
+    /* height: 385px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 31%;
+    font-size: 45px;
+} */ */
+
+/* .container-archie {
+    background-image: url(../images/mastiff.jpg);
+    display: flex;
+    height: 385px;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position-y: 19%;
+    background-position-x: 100%;
+    font-size: 45px;
+    background-color: white;
+} */
+
+/* .container-arlo {
+    background-image: url(../images/doberman.jpg);
+    display: flex;
+    height: 385px;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position-y: 19%;
+    background-position-x: 100%;
+    font-size: 45px;
+    background-color: white;
+} */
+
+
+.nav1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#back {
+    font-size: 15px;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+
+span {
+    text-decoration: underline;
+  }
+
+  section {
+    max-width: 75%;
+    background-color: white;
+    display:flex;
+    border-radius: 3%;
+    margin:10%;
+    font-size: 20px;
+    font-family: serif;
+  }
+
+  .nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid black;
+    margin-top: 2%;
+  }
+
+  #adopt {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
