@@ -2,7 +2,7 @@ const submitButton = document.getElementById("submit");
 const petName = document.getElementById("petName");
 const firstName = document.getElementById("firstName");
 const lastName = document.getElementById("lastName");
-const animalChoice = document.querySelector("input[type=radio]").checked;
+//const animalChoice = document.querySelector("input[type=radio]").checked;
 
 function submitData(event) {
     event.preventDefault();
@@ -11,6 +11,8 @@ function submitData(event) {
 
     localStorage.setItem("AdopterName", fullName);
     localStorage.setItem("petName", petName.value);
+    
+    window.location.replace("./certificate.html")
 }
 
 
