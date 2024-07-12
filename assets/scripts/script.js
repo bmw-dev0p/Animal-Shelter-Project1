@@ -13,3 +13,9 @@
         }, false)
       })
     })()
+
+//create a ‘Mouse Click’ action to link to #bottom
+
+function scrollToBottom() {
+    window.scrollTo(0, document.body.scrollHeight);
+}
