@@ -9,9 +9,7 @@
 <body>
     <header>
         <nav>
-            <button>Nav 1</button>
-            <button>Nav 2</button>
-            <button>Nav 3</button>
+            <button id="back">← BACK</button>
         </nav>
     </header>
     <main>
@@ -19,53 +17,46 @@
             <div class="container">
               <div class="outer-border"></div>
               <div class="inner-border"></div>
-              <div class="main-content ">
+              <div class="certificate">
 
-                <div class="top-banner">
+                <section class="top-banner">
                   <div class="title cursive text-center">
                     <h2>Certificate of Adoption</h2>
                   </div>
-                </div>
+                </section>
           
-                <div class="body">
-                  <div class="row-block">
-                        <p> This Certifies that I, </p>
+                <div class="content">
+                  <section class="row-block">
+                        <p class="text-center"> This Certifies that I, </p>
                           <div class="underline margin-0 text-center">
-                            <span class="name-text bold">Customer name</span>
+                            <span class="name-text bold" id="customer-name"> </span>
                       </div> 
-                      </div> 
+                    </section> 
                       
-                      <div class = "row-block">
-                          <p> Hereby Adopt </p>
+                      <section class = "row-block">
+                          <p class="text-center"> Hereby Adopt </p>
                             <div class="underline margin-0 text-center">
-                              <span class="name-text bold">Milo the Dog</span>
+                              <span class="name-text bold" id="animal-name"></span>
                             </div>
                           <p class="subtext">Into their Fur-ever home, Promising to give them a lifetime of love, care, attention, and happiness</p>
                           <p></p>
-                        
-                      </div>
+                      </section>
 
-                        <div class="certificate-footer">
+                        <section class="certificate-footer">
                             <div class="left-footer">
-                                <p class="underline">John Snow</p>
+                                <p class="underline cursive bold" id="signature"></p>
                                 <p>Signature</p>
                             </div>
                             <div class="right-footer">
-                                <p class="underline">July 8, 2024</p>
+                                <p class="underline bold" id="date"></p>
                                 <p>Adoption Date</p>
                             </div>
-                        </div>
-                       
-                      
-                     
+                          </section>
                       </div>
-                    <!-- </div> -->
                   </div>
-          
                 </div>
-          
-              </div>
-            </div>
+                
+            <script src="./assets/scripts/cert-script.js"></script>
           </body>
 
     </main>

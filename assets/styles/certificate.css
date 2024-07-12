@@ -9,6 +9,11 @@ header nav {
     justify-content: flex-end;
     align-items: center;
 }
+
+/* #back { */
+  /* insert button styling here  */
+/* } */
+
 .cursive {
   font-family: 'Pinyon Script', cursive;
 }
@@ -21,6 +26,10 @@ header nav {
   border-bottom: 1px solid #777;
   padding: 5px;
   margin-bottom: 15px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .margin-0 {
@@ -74,14 +83,15 @@ body {
     border: 2px solid #fff;
   }
 
-  .main-content {
+  .certificate {
     position: relative;
     width: 720px;
     height: 520px;
     padding: 0;
     border: 1px solid #E1E5F0;
     background-color: rgba(255, 255, 255, 1);
-    background-image: none;
+    background-image: url('../images/certificate-background.jpg');
+    background-size: cover;
     left: 50%;
     margin-left: -360px;
     top: 50%;
@@ -104,15 +114,16 @@ body {
 
     .title {
       position: relative;
-      top: 20px;
+      top: 15px;
+      left: 5px;
       text-align: center;
 
       h2 {
-        font-size: 44px !important;
+        font-size: 50px !important;
       }
     }
 
-    .body {
+    .content {
       padding: 10px;
 
       .name-text {
@@ -125,7 +136,7 @@ body {
         align-items: center;
         position: relative;
         left: 22px;
-        top: 32px;
+        /* top: 15px; */
         
     }
     .left-footer {
@@ -138,6 +149,7 @@ body {
         position: relative;
         width: 40%;
         left: 10%;
+        top: 17px;
     }
 
     .subtext {
