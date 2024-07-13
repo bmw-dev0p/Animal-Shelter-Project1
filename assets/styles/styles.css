@@ -1,11 +1,17 @@
 html {
-  background-color: rgb(246, 243, 243);
+  background-color: rgb(191, 194, 175);
+  scroll-behavior: smooth;
 }
 
 .custom-cursor {
   cursor: url('file:///Users/brookecline/Downloads/paw_print.svg'), auto;
 }
 
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 .house {
   width: 300px;
@@ -87,12 +93,19 @@ html {
     border-radius: 8px;
     background-color: transparent;
 }
-  header {
+  #header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgb(201, 201, 175);
+    border-bottom: #9996fa 5px solid;
+  }
+  header a {
+    color: #283618;
+    text-decoration: none;
+    font-size: 150%;
+    margin: 0 1em;
   }
 
   #nav-button {
@@ -100,8 +113,32 @@ html {
     justify-content: flex-end;
   }
 
-  h1 {
-    padding-left: 50px;
+  #button {
+    padding: 10px;
+    background-color: #4d7959;
+    color: #dcd9c9;
+    border-color: #9996fa;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: flex;
+    margin: 0 2em;
+    text-decoration: none;
+  }
+
+  #logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: -300px;
+  }
+
+  #title {
+    display: flex;
+    font-size: 250%;
+    color: #283618;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   p {
@@ -110,14 +147,15 @@ html {
 
   footer {
     margin-top:100px;
-    border-top: 5px solid #283618;
+    border-top: 5px solid #9996fa;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: rgb(201, 201, 175);
   }
 
-  #logo {
+  #logo1 {
     max-width: 175px;
   }
 
