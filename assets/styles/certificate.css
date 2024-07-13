@@ -10,9 +10,18 @@ header nav {
     align-items: center;
 }
 
-/* #back { */
-  /* insert button styling here  */
-/* } */
+#button {
+  padding: 10px;
+  background-color: #97c0cc;
+  border-color: #7ea38d;
+  border-radius: 5px;
+  margin-left: 50px;
+  display: flex;
+  margin-inline-end: 400px;
+  text-decoration: none;
+  border-style: outset;
+  border: 10px;
+ }
 
 .cursive {
   font-family: 'Pinyon Script', cursive;
@@ -156,5 +165,17 @@ body {
         font-size: 14px;
         margin-top: 20px;
     }
+
+
+   body {
+    background-color: #506952;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 450px;
+   }
   
 

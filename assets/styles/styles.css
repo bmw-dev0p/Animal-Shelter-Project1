@@ -123,6 +123,8 @@ body {
     display: flex;
     margin: 0 2em;
     text-decoration: none;
+    border-style: outset;
+    border: 10px;
   }
 
   #logo {
@@ -158,6 +160,7 @@ body {
   #logo1 {
     max-width: 175px;
   }
+
 
 
 
