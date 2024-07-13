@@ -3,9 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.custom-cursor {
-  cursor: url('file:///Users/brookecline/Downloads/paw_print.svg'), auto;
-}
+
 
 body {
   background-repeat: no-repeat;
@@ -76,13 +74,13 @@ body {
   display:none;
  
 }
-  .container {
+  /* .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-  .box {
+  } */
+  /* .box {
     display: flex;
     float: left;
     width: 30%;
@@ -92,7 +90,7 @@ body {
     object-fit: cover;
     border-radius: 8px;
     background-color: transparent;
-}
+} */
   #header {
     display: flex;
     align-items: center;
