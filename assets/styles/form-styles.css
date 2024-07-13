@@ -1,12 +1,12 @@
 .gradient-custom {
 /* fallback for old browsers */
-background: #f093fb;
+background: #5d7687;
 
 /* Chrome 10-25, Safari 5.1-6 */
-background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+background: -webkit-linear-gradient(to bottom right, rgb(106, 159, 121), rgb(72, 114, 146));
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+background: linear-gradient(to bottom right, rgb(117, 136, 183), rgb(58, 108, 72))
 }
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
@@ -18,3 +18,37 @@ padding-right: .75em;
 .card-registration .select-arrow {
 top: 13px;
 }
+
+#button {
+    padding: 10px;
+    background-color: #97c0cc;
+    border-color: #7ea38d;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: flex;
+    margin: 0 2em;
+    text-decoration: none;
+    border-style: outset;
+    border: 10px;
+  }
+
+  body {
+    background-color: rgb(100, 139, 102);
+  }
+
+  .card-registration {
+    background-color: #97c0cc;
+  }
+
+.btn {
+    padding: 10px;
+    background-color: #97c0cc;
+    border-color: #7ea38d;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: flex;
+    margin: 0 2em;
+    text-decoration: none;
+    border-style: outset;
+    border: 10px;
+  }
