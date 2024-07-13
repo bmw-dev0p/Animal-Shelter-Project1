@@ -11,6 +11,29 @@ body {
   background-size: cover;
 }
 
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  color: #5b7141;
+  max-width: 100%;
+  width: auto;
+}
+
+p {
+  font-size: 150%;
+}
+
+footer {
+  margin-top:100px;
+  border-top: 5px solid #9996fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(201, 201, 175);
+}
+
+/* class */
 .house {
   width: 300px;
   height: 300px;
@@ -74,38 +97,31 @@ body {
   display:none;
  
 }
-  /* .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  } */
-  /* .box {
-    display: flex;
-    float: left;
-    width: 30%;
-    height: 300px;
-    margin: 1%;
-    cursor: pointer;
-    object-fit: cover;
-    border-radius: 8px;
-    background-color: transparent;
-} */
+
+.button {
+  padding: 10px;
+  background-color: #4d7959;
+  color: #dcd9c9;
+  border-color: #9996fa;
+  border-radius: 5px;
+  margin-left: 50px;
+  display: flex;
+  margin: 0 2em;
+  text-decoration: none;
+  border-style: outset;
+  border: 10px;
+}
+
+/* id's */
+
   #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: rgb(201, 201, 175);
-    width: 100%;
   }
 
-  /* h1 {
-    font-size: 200%;
-    color: #627749;
-    max-width: fit-content;
-    width: auto;
-  } */
 
 
   #header a {
@@ -115,55 +131,10 @@ body {
     margin: 0 1em;
   }
 
-  h1 {
-    font-size: 200%;
-    font-weight: bold;
-    color: #5b7141;
-    max-width: 100%;
-    width: auto;
-  }
 
   #nav-button {
     display:flex;
     justify-content: flex-end;
-  }
-
-  #button {
-    padding: 10px;
-    background-color: #4d7959;
-    color: #dcd9c9;
-    border-color: #9996fa;
-    border-radius: 5px;
-    margin-left: 50px;
-    display: flex;
-    margin: 0 2em;
-    text-decoration: none;
-    border-style: outset;
-    border: 10px;
-  }
-
-  #logo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    margin-left: -300px;
-  }
-
-
-  p {
-    font-size: 150%;
-  }
-
-  footer {
-    margin-top:100px;
-    border-top: 5px solid #9996fa;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(201, 201, 175);
   }
 
   #logo1 {
