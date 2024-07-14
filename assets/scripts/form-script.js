@@ -4,8 +4,7 @@ const firstName = document.getElementById("firstName");
 const lastName = document.getElementById("lastName");
 const animalChoice = document.querySelector("input[type=radio]").checked;
 
-function submitData(event) {
-    
+function submitData() {
 
     const fullName = `${firstName.value} ${lastName.value}`;
 
