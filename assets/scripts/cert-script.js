@@ -30,9 +30,9 @@ function renderCert() {
 //call function
 renderCert();
 
-//back button
-backEl.addEventListener('click', function(event) {
-    console.log('back button clicked');
-    event.preventDefault();
-    history.back();
-    });
+// //back button
+// backEl.addEventListener('click', function(event) {
+//     console.log('back button clicked');
+//     event.preventDefault();
+//     history.back();
+//     });
