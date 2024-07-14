@@ -3,7 +3,7 @@ const customerEl = document.getElementById('customer-name');
 const animalEl = document.getElementById('animal-name');
 const signEl = document.getElementById('signature');
 const dateEl = document.getElementById('date');
-const backEl = document.getElementById('back');
+const backEl = document.getElementById('button');
 const currentDate = new Date();
 const dateFormatted = currentDate.toLocaleDateString('en-US');
 
