@@ -35,9 +35,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Brooke Cline - https://github.com/bcline01
+Zoe Miller - https://github.com/millezo326
+Brad Webster - https://github.com/bmw-dev0p
+Sergio Torres https://github.com/SirrBarnes
 
 If you followed tutorials, include links to those here as well.
 
