@@ -3,7 +3,8 @@ const customerEl = document.getElementById('customer-name');
 const animalEl = document.getElementById('animal-name');
 const signEl = document.getElementById('signature');
 const dateEl = document.getElementById('date');
-const backEl = document.getElementById('button');
+const backEl = document.getElementById('back');
+const startEl = document.getElementById('start');
 const currentDate = new Date();
 const dateFormatted = currentDate.toLocaleDateString('en-US');
 
@@ -35,4 +36,11 @@ backEl.addEventListener('click', function(event) {
     console.log('back button clicked');
     event.preventDefault();
     history.back();
+    });
+
+//start over button
+startEl.addEventListener('click', function(event) {
+    console.log('start button clicked');
+    event.preventDefault();
+    window.location.replace("./index.html")
     });

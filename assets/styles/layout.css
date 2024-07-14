@@ -2,9 +2,6 @@ html {
     background-color: rgb(194, 197, 161);
   }
 
-
-
-
 /* .container-milo {
     background-image: url(../images/aussiedoodle.jpg);
     display: flex;
@@ -78,7 +75,17 @@ span {
     font-size: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: rgb(145, 150, 136);
+    /* changed color to match, feel free to revert */
+    background-color: #97c0cc;
+    border-color: #9996fa;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+
+  }
+  #adopt:hover {
+    background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
   }
 
   #button {
@@ -91,6 +98,7 @@ span {
     display: flex;
     margin: 0 2em;
     text-decoration: none;
+    font-size: 150%;
   }
 
   body {
@@ -100,4 +108,31 @@ span {
   .jumbotron {
     background-color: rgb(190, 191, 163);
   }
+
+  /* brad edits below  */
+  /* made body text larger */
+  h3, ul {
+    font-size: 150%;
+  }
+  /* fixed nav to right side of page  */
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* tried new button style */
+  #back{
+    padding: 10px;
+    background-color: #97c0cc;
+    border-color: #9996fa;
+    border-radius: 5px;
+    margin: 10px 50px;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+   }
+   #back:hover {
+    background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
+  }
+
 
