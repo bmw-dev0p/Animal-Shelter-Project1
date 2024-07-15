@@ -142,6 +142,10 @@ footer {
     margin-left: -225px;
   }
 
+  #logo2 {
+    max-width: 175px;
+  }
+
   /* brad edits */
   header {
     border-bottom: 5px solid #9996fa;
