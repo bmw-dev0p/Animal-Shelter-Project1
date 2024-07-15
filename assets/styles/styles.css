@@ -98,19 +98,6 @@ footer {
  
 }
 
-.button {
-  padding: 10px;
-  background-color: #4d7959;
-  color: #dcd9c9;
-  border-color: #9996fa;
-  border-radius: 5px;
-  margin-left: 50px;
-  display: flex;
-  margin: 0 2em;
-  text-decoration: none;
-  border-style: outset;
-  border: 10px;
-}
 
 /* id's */
 
@@ -122,24 +109,9 @@ footer {
     background-color: rgb(201, 201, 175);
   }
 
-
-
-  #header a {
-    color: #93aa78;
-    text-decoration: none;
-    font-size: 150%;
-    margin: 0 1em;
-  }
-
-
-  #nav-button {
-    display:flex;
-    justify-content: flex-end;
-  }
-
   #logo1 {
     max-width: 175px;
-    margin-left: -225px;
+    
   }
 
   #logo2 {
@@ -147,30 +119,26 @@ footer {
   }
 
   /* brad edits */
-  header {
-    border-bottom: 5px solid #9996fa;
-    background-color: rgb(201, 201, 175);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
+
   /* quick fix for buttons touching. may change later */
+
   nav {
     display:flex;
     flex-direction: column;
   }
 
-  .button {
-    margin: 10px;
-  }
+
 
 /* to revert button style, change class to ".button" */
   .button { 
+    display: flex;
+    text-decoration: none;
     padding: 10px;
-    background-color: #97c0cc;
-    border-color: #9996fa;
+    color: #dcd9c9;
+    background-color: #5b7141;
     border-radius: 5px;
+    border: 10px;
+    margin:10px;
     margin-left: 100px;
     margin-right: 100px;
     a {
