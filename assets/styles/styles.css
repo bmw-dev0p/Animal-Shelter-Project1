@@ -182,6 +182,12 @@ footer {
     padding-left: 90px;
     padding-top: 20px;
    }
+
+   /* house hover hint text  */
+   .hint {
+    text-align: center;
+    /* color:#9996fa; */
+   }
    
 
 

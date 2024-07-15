@@ -111,8 +111,12 @@ span {
 
   /* brad edits below  */
   /* made body text larger */
-  h3, ul {
+  ul {
     font-size: 150%;
+  }
+  h3 {
+    font-size: 250%;
+    padding-bottom: 15px;
   }
   /* fixed nav to right side of page  */
   nav {
