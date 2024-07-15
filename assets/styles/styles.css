@@ -156,12 +156,12 @@ footer {
     flex-direction: column;
   }
 
-  button {
+  .button {
     margin: 10px;
   }
 
 /* to revert button style, change class to ".button" */
-  .back { 
+  .button { 
     padding: 10px;
     background-color: #97c0cc;
     border-color: #9996fa;
@@ -173,7 +173,7 @@ footer {
       color: #333;
     }
    }
-   .back:hover {
+   .button:hover {
     background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
   }
     
