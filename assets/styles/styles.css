@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 220%;
   font-weight: bold;
   color: #5b7141;
   max-width: 100%;
@@ -141,6 +141,54 @@ footer {
     max-width: 175px;
   }
 
+  /* brad edits */
+  header {
+    border-bottom: 5px solid #9996fa;
+    background-color: rgb(201, 201, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  /* quick fix for buttons touching. may change later */
+  nav {
+    display:flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin: 10px;
+  }
+
+/* to revert button style, change class to ".button" */
+  .back { 
+    padding: 10px;
+    background-color: #97c0cc;
+    border-color: #9996fa;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+   }
+   .back:hover {
+    background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
+  }
+    
+   /* centered text on house  */
+   #name {
+    padding-left: 90px;
+    padding-top: 20px;
+   }
+
+   /* house hover hint text  */
+   .hint {
+    text-align: center;
+    /* color:#9996fa; */
+   }
+   
 
 
 

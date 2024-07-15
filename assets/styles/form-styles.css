@@ -42,8 +42,9 @@ top: 13px;
 
 .btn {
     padding: 10px;
-    background-color: #97c0cc;
-    border-color: #7ea38d;
+    /* changed to visible color */
+    background-color: #2CA5B5;
+    border-color: #9996fa;
     border-radius: 5px;
     margin-left: 50px;
     display: flex;
@@ -52,3 +53,28 @@ top: 13px;
     border-style: outset;
     border: 10px;
   }
+  /* brad changes below  */
+  /* to revert button styling, change id back to #button  */
+    #back{
+      padding: 10px;
+      background-color: #97c0cc;
+      border-color: #9996fa;
+      border-radius: 5px;
+      margin: 0px 50px;
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+     }
+     #back:hover {
+      background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
+    }
+  
+  /* added slight padding to button  */
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+  }
+  
