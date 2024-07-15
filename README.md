@@ -18,18 +18,25 @@ No steps are required to install this application
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
-
-Landing Page 
+Landing Page - hover mouse over house door to go to animal page
     
 ```md
-![LandingPage](https://github.com/user-attachments/assets/d4699c91-3d37-4fa9-814b-edc211eec543)
+![landingpage](assets/images/LandingPage.PNG)
+```
+Animal Page - gives you animal information and the ability to adopt
+Hit the adopt button to take you to the adoption form
+
+```md
+![animalpage](assets/images/AnimalPage.PNG)
+```
+Fill out adoption form and receive a certificate
+
+```md
+![formpage](assets/images/Form.PNG)
+```
+
+```md
+![certificatepage](assets/images/certificate.PNG)
 ```
 
 ## Credits
@@ -43,8 +50,11 @@ If you followed tutorials, include links to those here as well.
 Certificate Tutorial - https://codepen.io/seebrosky/pen/xLzKOV
 Bootstrap Form Tutorial - https://colorlib.com/wp/template/colorlib-regform-4/
 
+
 ## Features
 
 Bootstrap Adoption Form
 Landing Page for website with dog houses for adoption process
-Certificate for 
+Certificate for Adoption
+pet adoption on landing page looking like houses
+navigation buttons
