@@ -3,25 +3,18 @@ edX Coding Bootcamp Group Project 1
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Our project is an animal adoption website meant to make the process fun while still being as informative as possible. we have a front page that shows dog houses with each avalible pets picture as well as their name. when you hover over the door you should be met with a link you can click that leads to another page with all the avalible pets information. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+We were motivated to create this website as our group project because we figured we would be able to implement everything we have learned so far into the course as well as adding things we learn on our own to add character and make it our own!
 
-## Table of Contents (Optional)
+As a local Animal shelter,
+I want to host a website that advertises the animals we are currently housing
+So that customers can meet our animals, learn basic info about them, and choose whether or not to adopt them into their home.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No steps are required to install this application
 
 ## Usage
 
@@ -29,9 +22,15 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+```md
+![alt text](assets/images/screenshot.png)
+```
+
+Landing Page 
+    
+```md
+![LandingPage](https://github.com/user-attachments/assets/d4699c91-3d37-4fa9-814b-edc211eec543)
+```
 
 ## Credits
 
@@ -41,29 +40,11 @@ Brad Webster - https://github.com/bmw-dev0p
 Sergio Torres https://github.com/SirrBarnes
 
 If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+Certificate Tutorial - https://codepen.io/seebrosky/pen/xLzKOV
+Bootstrap Form Tutorial - https://colorlib.com/wp/template/colorlib-regform-4/
 
 ## Features
 
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Bootstrap Adoption Form
+Landing Page for website with dog houses for adoption process
+Certificate for 
